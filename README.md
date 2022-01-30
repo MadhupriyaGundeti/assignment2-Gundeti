@@ -49,3 +49,9 @@ It has three columns with activity name, Location where the activities are going
 |  Football  |   Melbourne    |    $600      |
 | Basketball |   Sydney       |    $700      |
 | Cricket    |   Mumbai       |    $500      |
+
+***
+### Quotes
+>"All you need in this life is ignorance and confidence; then success is sure."   -*Mark Twain*
+
+>"I don't go by the rule book…I lead from the heart, not the head."        -*Princess Diana*
