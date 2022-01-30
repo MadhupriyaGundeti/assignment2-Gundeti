@@ -38,3 +38,14 @@ It has various restaurants which belongs to different nations but it is pretty e
 
 **[Add](AboutMe.md)**
 
+***
+### Activities
+
+It has three columns with activity name, Location where the activities are going to happen <br> Third column is the price that someone can invest on the equipment.
+
+|    Name    |    Location    |    Amount    |
+|    ----    |    --------    |    ------    |
+|  Kabaddi   |   Hyderabad    |    $200      |
+|  Football  |   Melbourne    |    $600      |
+| Basketball |   Sydney       |    $700      |
+| Cricket    |   Mumbai       |    $500      |
