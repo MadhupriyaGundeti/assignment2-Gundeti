@@ -55,3 +55,30 @@ It has three columns with activity name, Location where the activities are going
 >"All you need in this life is ignorance and confidence; then success is sure."   -*Mark Twain*
 
 >"I don't go by the rule book…I lead from the heart, not the head."        -*Princess Diana*
+
+***
+### Code Fencing
+>0-1 BFS is a code to search tree data structure for a node that satisfies a property. Its starts at the tree root and travels all nodes at present depth to nodes at next depth level. Extra memory(queue) is required to keep track of all child nodes.
+<https://en.wikipedia.org/wiki/Breadth-first_search>
+```
+d.assign(n, INF);
+d[s] = 0;
+set<pair<int, int>> q;
+q.insert({0, s});
+while (!q.empty()) {
+    int v = q.begin()->second;
+    q.erase(q.begin());
+
+    for (auto edge : adj[v]) {
+        int u = edge.first;
+        int w = edge.second;
+
+        if (d[v] + w < d[u]) {
+            q.erase({d[u], u});
+            d[u] = d[v] + w;
+            q.insert({d[u], u});
+        }
+    }
+}
+```
+<https://cp-algorithms.com/graph/01_bfs.html>
